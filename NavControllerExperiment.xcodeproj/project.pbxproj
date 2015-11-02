@@ -15,6 +15,7 @@
 		93B3BFE71BE7D7ED006805C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B3BFE51BE7D7ED006805C7 /* LaunchScreen.storyboard */; };
 		93B3BFF21BE7D7EE006805C7 /* NavControllerExperimentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B3BFF11BE7D7EE006805C7 /* NavControllerExperimentTests.m */; };
 		93B3BFFD1BE7D7EE006805C7 /* NavControllerExperimentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B3BFFC1BE7D7EE006805C7 /* NavControllerExperimentUITests.m */; };
+		93B3C00C1BE7DA0D006805C7 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B3C00B1BE7DA0D006805C7 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		93B3BFF81BE7D7EE006805C7 /* NavControllerExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavControllerExperimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B3BFFC1BE7D7EE006805C7 /* NavControllerExperimentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavControllerExperimentUITests.m; sourceTree = "<group>"; };
 		93B3BFFE1BE7D7EE006805C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93B3C00A1BE7DA0D006805C7 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		93B3C00B1BE7DA0D006805C7 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				93B3BFE51BE7D7ED006805C7 /* LaunchScreen.storyboard */,
 				93B3BFE81BE7D7ED006805C7 /* Info.plist */,
 				93B3BFD71BE7D7ED006805C7 /* Supporting Files */,
+				93B3C00A1BE7DA0D006805C7 /* TableViewController.h */,
+				93B3C00B1BE7DA0D006805C7 /* TableViewController.m */,
 			);
 			path = NavControllerExperiment;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				93B3BFDF1BE7D7ED006805C7 /* ViewController.m in Sources */,
 				93B3BFDC1BE7D7ED006805C7 /* AppDelegate.m in Sources */,
 				93B3BFD91BE7D7ED006805C7 /* main.m in Sources */,
+				93B3C00C1BE7DA0D006805C7 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
